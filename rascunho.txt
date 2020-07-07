@@ -1,0 +1,41 @@
+if (document.getElementById("item-six-qtd").innerHTML > 1){
+        document.getElementById("item-six-qtd").innerHTML --;
+        const qtdItemSix = document.getElementById("item-six-qtd").innerHTML;
+        document.getElementById("car-itens").innerHTML = "" + qtdItemSix + "x - Item Six"
+    } else if(document.getElementById("item-six-qtd").innerHTML = 1){
+        document.getElementById("item-six-qtd").innerHTML --;
+        const qtdItemSix = document.getElementById("item-six-qtd").innerHTML;
+        document.getElementById("car-itens").innerHTML = ""
+    } else {
+        alert('não pode !')   
+    }
+    
+    
+    
+    
+    const qtdItemOne = document.getElementById("item-one-qtd").innerHTML;
+    const itemOnePrice = document.getElementById("item-one-price").innerHTML.replace("$", "");
+    const itemOnePriceTotal = (itemOnePrice * qtdItemOne).toFixed(2);
+
+    const qtdItemTwo = document.getElementById("item-two-qtd").innerHTML;
+    const itemTwoPrice = document.getElementById("item-two-price").innerHTML.replace("$", "");
+    const itemTwoPriceTotal = (itemTwoPrice * qtdItemTwo).toFixed(2);
+
+    const qtdItemThree = document.getElementById("item-three-qtd").innerHTML;
+    const itemThreePrice = document.getElementById("item-three-price").innerHTML.replace("$", "");
+    const itemThreePriceTotal = (itemThreePrice * qtdItemThree).toFixed(2);
+
+    const qtdItemFour = document.getElementById("item-four-qtd").innerHTML;
+    const itemFourPrice = document.getElementById("item-four-price").innerHTML.replace("$", "");
+    const itemFourPriceTotal = (itemFourPrice * qtdItemFour).toFixed(2);
+
+    const qtdItemFive = document.getElementById("item-five-qtd").innerHTML;
+    const itemFivePrice = document.getElementById("item-five-price").innerHTML.replace("$", "");
+    const itemFivePriceTotal = (itemFivePrice * qtdItemFive).toFixed(2);
+
+    const qtdItemSix = document.getElementById("item-six-qtd").innerHTML;
+    const itemSixPrice = document.getElementById("item-six-price").innerHTML.replace("$", "");
+    const itemSixPriceTotal = (itemSixPrice * qtdItemSix).toFixed(2);
+
+    document.getElementById("total-products").innerHTML = (parseFloat(itemOnePriceTotal) + parseFloat(itemTwoPriceTotal) + parseFloat(itemThreePriceTotal) + parseFloat(itemFourPriceTotal) + parseFloat(itemFivePriceTotal) + parseFloat(itemSixPriceTotal)).toFixed(2);
+

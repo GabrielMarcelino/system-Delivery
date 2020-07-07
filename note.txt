@@ -1,0 +1,16 @@
+icones{
+    1: Churrasco na Tábua; - Logo
+    2: Hambúrguer Artesanal; - Burguer ////////////////
+    3: Sanduíches Especiais; - Baguete ///////////////
+    4: Linguiças Especiais; - Linguiça ////////////////
+    5: Cortes Especiais; - Carne - //////////////////
+    6: Porções; - Batata ///////////////////
+    7: Bebidas; - Bebidas 
+}
+
+
+
+
+
+
+
