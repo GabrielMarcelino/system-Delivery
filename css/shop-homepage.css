@@ -4,8 +4,22 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
  */
 body {
-    padding-top: 56px;
+    padding-top: 0;
+    
 }
+
+header{
+    
+}
+
+header img{
+    width: 50%;
+    margin: 5% 25% 5%;
+}
+
+
+
+
 .card-topo{
     text-align: center;
 }
@@ -36,7 +50,7 @@ body {
     display: none;
 }*/
 header{
-    height: 55vh
+    
 }
 .carousel-item img {
     width: 100%!important;
@@ -217,7 +231,7 @@ header{
 }
 
 footer {
-    background-image: url(../img/back.jpg);
+    /*background-image: url(../img/back.jpg);*/
     background-size: auto;
 }
 
@@ -261,7 +275,7 @@ footer {
     transition: all 0.5s;
 }
 
-#galeria .item-c {
+/*#galeria .item-c {
     display: none;
     padding: 0!important;
 }
@@ -270,7 +284,7 @@ footer {
 }
 #galeria .item-c:first-child {
     display: block;
-}
+}*/
 
 @media(min-width: 993px) {
     nav {
@@ -302,20 +316,34 @@ footer {
         border-top: .1px solid #fff;
     }
 
-    .carousel, header {
-        display: none;
-    }
-
     .card-body {
-        height: 65px!important;
+        height: 50px!important;
     }
-
+    .card-text{
+        font-size: .65em
+    }
+    .card-footer{
+        
+    }
     .card-footer h5 {
         line-height: 200%;
-        font-size: 1.1em;
-        margin: 0 5% 0 0;
+        font-size: 1.2em;
+        margin: 0 13% 0 5%;
+    }
+    .card-footer-div {
+    display: flex;
+    padding: 2% 2% 2%;
     }
 
+    .card-footer-div h5 {
+    margin-right: 12%;
+    line-height: 35px
+    }
+
+    .card-footer-div button {
+    margin-right: 0%;
+    margin-bottom: 0 !important;
+    }
     .card-footer span {
         width: 25px;
         height: 25px;
@@ -362,9 +390,8 @@ footer {
         margin-top: 5%;
         text-align: center;
     }
-
     .produto {
-        padding: 0 1.5% 15% !important;
+        padding: 0 1.5% 13% !important;
         margin: 0 !important;
     }
     .carrinho{
